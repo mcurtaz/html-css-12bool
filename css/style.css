@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenuto{
+  height: 100px;
+  background-color: #ffbdcb;
+  border: 1px solid #000;
+  line-height: 100px;
+  text-align: center;
+}
+
+.col-6.container{
+  padding: 1%;
+  background-color: #ffbdcb;
+  border: 1px solid #000;
+}
+
+.col-6.container .contenuto{
+  background-color: #ff787c;
+  border: 1px solid #fff;
+}

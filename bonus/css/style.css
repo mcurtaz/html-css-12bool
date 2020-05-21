@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.the-wall{
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: darkred;
+  position: relative;
+}
+
+.title{
+  width: calc((100% / 12) * 4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title img{
+  width: 100%;
+}
+
+
+.mattone{
+  height: 80px;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
